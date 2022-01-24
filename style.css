@@ -1,0 +1,21 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Package section CSS */
+.tick-icon{
+    background-color: #EDEBF8;
+    border-radius: 50%;
+    padding: 5px;
+    color: #5748C3;
+}
+.package-item{
+    border-radius: 30px;
+}
+.hot-icon{
+   position: absolute;
+   top:5px;
+   left: 85%;
+}
