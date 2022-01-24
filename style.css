@@ -6,7 +6,9 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-
+.section{
+    margin-bottom: 100px;
+}
 /* common class */
 .pennsylvania-primary-color{
     background-color: #02A0BC;
@@ -31,4 +33,30 @@ body{
    position: absolute;
    top:5px;
    left: 85%;
+}
+
+/* Sercices Section style */
+.card-item{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+.card-item img{
+    transition: 1s linear;
+}
+.card-img{
+    overflow: hidden;
+}
+.card-item:hover img{
+    transform: scale(1.1);
+}
+.services-card-title a{
+    color: #02A0BC;
+    text-decoration: none;
+    transition: transform 1s linear;
+}
+.services-card-title{
+    transition: transform 1s linear;
+}
+.services-card-title:hover{
+    transform: scale(1.1);
 }
