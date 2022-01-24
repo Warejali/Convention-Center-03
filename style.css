@@ -14,10 +14,10 @@ body{
     background-color: #02A0BC;
     color: #02A0BC;
 }
-.pennsylvania-secondary-color{
+/* .pennsylvania-secondary-color{
     background-color: #FD2200;
     color: #FD2200;
-}
+} */
 
 /* Package section CSS */
 .tick-icon{
@@ -60,3 +60,12 @@ body{
 .services-card-title:hover{
     transform: scale(1.1);
 }
+
+/* @media only screen and (max-width: 576px) {
+    .banner-heading{
+        font-size: 14px;
+    }
+    .banner-text{
+        display: none;
+    }
+  } */

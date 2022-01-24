@@ -39,7 +39,7 @@
     <main>
         <!-- Carousel -->
         <section class="section">
-            <div class="">
+            <div class="banner">
                 <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
                     <!-- Carousel/Slider Button -->
@@ -53,26 +53,29 @@
                         <div class="carousel-item active">
                             <img src="images/banner.png" alt="Los Angeles" class="d-block w-100" style="width:100%">
                             <div class="carousel-caption">
-                                <h2>The perfect venue for your next event</h2>
-                                <p>Amet minim mollit non deserunt ullamco est sit aliqua
+                                <h2 class="banner-heading">The perfect venue for your next event</h2>
+                                <p class="banner-text">Amet minim mollit non deserunt ullamco est sit aliqua
                                     <br>
                                     dolor do amet sint. Velit officia consequat duis enim velit
                                 </p>
-                                <button class="btn btn-light">Book Now</button>
+                                <button class="btn btn-light mb-2">Book Now</button>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="images/banner.png" alt="Chicago" class="d-block" style="width:100%">
+                            <img src="images/banner-02.jpg" alt="" class="d-block" style="width:100%">
                             <div class="carousel-caption">
-                                <h3>Chicago</h3>
-                                <p>Thank you, Chicago!</p>
+                                <h3 class="banner-heading">The award-winning</h3>
+                                <p class="banner-text">Center provides approximately $3 billion in
+                                <br> economic impact to Central Florida annually.</p>
+                                <button class="btn btn-light mb-2">Book Now</button>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="images/banner.png" alt="New York" class="d-block" style="width:100%">
+                            <img src="images/banner-03.jpg" alt="New York" class="d-block" style="width:100%">
                             <div class="carousel-caption">
-                                <h3>New York</h3>
-                                <p>We love the Big Apple!</p>
+                                <h3 class="banner-heading">Conventions and tradeshows</h3>
+                                <p class="banner-text"> The attract more than 1.5 million attendees to the region each year.</p>
+                                <button class="btn btn-light mb-2">Book Now</button>
                             </div>
                         </div>
                     </div>
@@ -239,8 +242,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4"></div>
-                    <div class="col-4"></div>
                 </div>
             </div>
         </section>
@@ -252,14 +253,13 @@
                     <h1>Contact Us</h1>
                 </div>
                 <div class="row gx-5">
-                    <div class="col-sm-5 pennsylvania-primary-color text-white d-flex jsutify-content-center align-items-center">
+                    <div class="col-sm-5 pennsylvania-primary-color text-white d-flex jsutify-content-center align-items-center p-3 mb-3">
                         <div class="text-center">
                             <h4>Pennsylvania Convention Center</h4>
                             <h6>1101 Arch Street,</h6>
                             <h6>Philadelphia, PA 1910</h6>
                             <h6><i class="fas fa-tty"></i> 1-215-000-000</h6>
                             <h6><i class="fas fa-envelope"></i> Example@gamol.com</h6>
-
                         </div>
                     </div>
                     <div class="col-sm-7">
@@ -285,8 +285,8 @@
                                     <label for="message">Message</label>
                                     <textarea class="form-control" id="message" rows="6" placeholder="Write Your Message" required></textarea>
                                 </div>
-                                <div class="col-12 form-group">
-                                    <button class="btn btn-success" type="submit">Send</button>
+                                <div class="col-12 form-group d-flex justify-content-end">
+                                    <button class="btn pennsylvania-primary-color text-white px-3" type="submit">Send</button>
                                 </div>
                             </div>
                         </form>
@@ -365,11 +365,11 @@
     <footer class="bg-dark p-4">
         <div class="container">
             <div class="row d-flex justify-content-between">
-                <div class="col-6 d-flex text-white text-center align-items-center">
+                <div class="col-sm-6 d-flex text-white text-center align-items-center">
                     <p>&copy; 2020 bike. All rights reserved</p>
                 </div>
-                <div class="col-3 d-flex jsutify-content-center align-items-center">
-                    <div>
+                <div class="col-sm-3">
+                    <div class="d-flex flex-column align-items-center">
                         <h5 class="text-white">Get the App</h5>
                             <a href="https://play.google.com/store/apps/details?id=learn.programming.courses&hl=en&gl=US" target="blank"><img src="icons/google.png" alt="google app" class="img-fluid mb-4" width="150"></a>
                         
